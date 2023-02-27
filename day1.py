@@ -476,4 +476,18 @@ else:
 
 # COMMAND ----------
 
-
+print('welcome to the game!')
+print('you wake up trapped in a room')
+print('theres 3 options')
+x = 'window'
+y = 'door'
+z = 'hole'
+print("theres a window, theres a door, theres a hole")
+guess = input("choose an option ")
+if guess == x :
+        print('you fall to your death')
+if guess == y :
+        print('you find a man with a bag, he offers you something but he wants a a drink in return ')
+if guess == z :
+        print('you reached the bottom floor')
+        
